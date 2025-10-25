@@ -23,3 +23,10 @@ function functionName(type parameter1, type parameter2, ...)
     // Function logic
 }
 ```
+
+### 🔍 Function Visibility
+
+Visibility determines where the function can be called from.
+
+| Visibility | Description | Callable by |
+| ---------- | ----------- | ----------- |
