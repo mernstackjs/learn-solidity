@@ -28,5 +28,9 @@ function functionName(type parameter1, type parameter2, ...)
 
 Visibility determines where the function can be called from.
 
-| Visibility | Description | Callable by |
-| ---------- | ----------- | ----------- |
+| Visibility | Description                                     | Callable by               |
+| ---------- | ----------------------------------------------- | ------------------------- |
+| public     | Anyone and other contracts can call             | External + internal       |
+| external   | Only from outside the contract                  | External only             |
+| internal   | Only within this contract and derived contracts | Internal only             |
+| private    | Only within this contract                       | Internal (no inheritance) |
